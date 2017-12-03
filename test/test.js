@@ -7,7 +7,7 @@ var expect = require('chai').expect;
 var con = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '',
+  password: 'ibnu',
   database: 'simac'
 });
 describe("SAMPLE unit test",function(){
