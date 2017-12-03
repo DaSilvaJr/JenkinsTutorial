@@ -2,11 +2,11 @@ var supertest = require("supertest");
 var should = require("should");
 var mysql = require("mysql");
 var server = supertest.agent("http://localhost:4000");
-var expect = require('chai').expect;
+var expect = require('chai').expect
 
 var con = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
+  host: 'localhost'
+  user: 'root'
   password: 'ibnu',
   database: 'simac'
 });
